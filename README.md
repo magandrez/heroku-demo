@@ -4,7 +4,7 @@ Demo-Heroku
 This is a simple demo to play with [Heroku](https://www.heroku.com/).
 
 It is written in Python and relies in [Flask](http://flask.pocoo.org/). It is meant
-to show a standard development lifecycle and deployment to Heroku.
+to show a standard development lifecycle and deployment to Heroku. For an extensive and much better guide, use official [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#introduction).
 
 Go ahead and clone this repository.
 
@@ -33,7 +33,7 @@ heroku apps:create myheroku-demo
 git push heroku master
 ```
 
-And you are ready to hack away.
+And you are ready to hack away and test Heroku functionalities.
 
 Requirements
 ------------
