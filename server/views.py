@@ -4,9 +4,12 @@
 from flask import Flask
 from server import app
 
+import os
+
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    greeting = os.environ.get('GREETING')
+    return 'Hello, '+greeting
 
 if __name__ == '__main__':
     print("Running server on http://localhost:5000")
